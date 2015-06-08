@@ -49,16 +49,16 @@ public class LoginChat extends JavaPlugin
 				{
 					if (args[0].equalsIgnoreCase("reload")) 
 					{
-						if (playerSend.hasPermission("NewMCStoryLogin.reload") | (playerSend.isOp()))  
-						{
+					if (playerSend.hasPermission("NewMCStoryLogin.reload") | (playerSend.isOp()))  
+					{
 						loadConfiguration();
 						this.reloadConfig();
 						this.saveConfig();
 						playerSend.sendMessage(ChatColor.GREEN + this.getConfig().getString("messaggi.reload-completo"));
-						} 
-						else {
+					} 
+					else {
 						playerSend.sendMessage(ChatColor.RED + this.getConfig().getString("messaggi.nessun-permesso"));
-						}
+					}
 					}
 				}
 			}
