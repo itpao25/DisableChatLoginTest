@@ -3,7 +3,15 @@ main: it.itpao25.NewMCStoryLogin.LoginChat
 version: 1
 description: Disablita la chat nel login
 author: itpao25
+commands:
+    NewMcStoryLogin:
+        description: Usa /NewMcStoryLogin <reload>
+    NewMcStoryLogin Reload:
+        description: Reload del plugin
 permissions:
   NewMCStoryLogin.Bypass:
     description: Possibilità di chattare nel login
-    default: false
+    default: op
+  NewMcStoryLogin.reload:
+    description: Reload del plugin
+    default: op
