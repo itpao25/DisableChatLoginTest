@@ -24,8 +24,8 @@ public class LoginChat extends JavaPlugin
 		
 		getLogger().info("NewMcStoryLogin abilitato");
 		PluginManager manager = getServer().getPluginManager();
-	    manager.registerEvents(this, this);
-	    loadConfiguration();
+	        manager.registerEvents(this, this);
+	        loadConfiguration();
 	    
 	}
 	
@@ -72,23 +72,24 @@ public class LoginChat extends JavaPlugin
     			}
     		}
     	}
-		return false;
+    	
+	return false;
     	
     }
       
 	@EventHandler
 	public void onPlayerChat(AsyncPlayerChatEvent event)
-    {
+    	{
 		Player player = event.getPlayer();
 		
 		if (!player.hasPermission("NewMCStoryLogin.Bypass") | (!player.isOp()))  
 		{
-				event.setCancelled(true);	
-				player.sendMessage(ChatColor.RED + "Non hai permesso di usare la chat in quest'area, buttati nel portale");	
+			event.setCancelled(true);	
+			player.sendMessage(ChatColor.RED + "Non hai permesso di usare la chat in quest'area, buttati nel portale");	
 
 		}
 		
-     } 
+     	} 
     
 
 } 
