@@ -18,5 +18,5 @@ messaggi:
   nessun-permesso: Nessun permesso!
   reload-completo: Hai effettuato il reload con successo!
 ```
-Only for test (My firts project on github) and Fun. This is a maven project.
+Only for test (My first project on github) and Fun. This is a maven project.
 
