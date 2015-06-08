@@ -3,6 +3,8 @@
 
 Disable chat in the login server showing an error message configurable
 
+Compile with minecraft API 1.7.x
+
 ### Permission and command:
 - *NewMCStoryLogin* - Main command
 - *NewMCStoryLogin Reload* - Reload the config.yml (NewMCStoryLogin.reload) 
@@ -17,3 +19,4 @@ messaggi:
   reload-completo: Hai effettuato il reload con successo!
 ```
 Only for test and Fun. This is a maven project.
+
