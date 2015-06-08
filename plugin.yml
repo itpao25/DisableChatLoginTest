@@ -1,0 +1,9 @@
+name: NewMCStoryLogin
+main: it.itpao25.NewMCStoryLogin.LoginChat
+version: 1
+description: Disablita la chat nel login
+author: itpao25
+permissions:
+  NewMCStoryLogin.Bypass:
+    description: Possibilità di chattare nel login
+    default: false
