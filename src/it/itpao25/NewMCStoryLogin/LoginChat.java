@@ -14,7 +14,6 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-
 public class LoginChat extends JavaPlugin 
  implements Listener
 {
